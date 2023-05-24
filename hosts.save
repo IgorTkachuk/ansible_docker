@@ -1,0 +1,14 @@
+web-server ansible_user=tkachuk 
+
+[docker_server]
+web-server
+srv02
+
+[dns_server]
+srv01
+
+[infra_server:children]
+docker_server
+dns_server
+srv03 
+

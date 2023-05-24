@@ -1,0 +1,7 @@
+[docker_server:vars]
+ansible_user=tkachuk
+
+[docker_server]
+web-server
+
+
